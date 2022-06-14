@@ -19,4 +19,5 @@ colnames(variables_2021)
 head(variables_2021)
 
 
+# guardando nueva matriz como datos_2021
 write.csv(variables_2021, "datos_2021")
