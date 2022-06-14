@@ -1,6 +1,6 @@
 # COVID19 en México
 ### Dulce María Montero Rasgado
-### Diseño Experimental y Estadística | Semestre 2022-2
+#### Diseño Experimental y Estadística | Semestre 2022-2
 
 En este repositorio se encuentran almacenados los scripts y figuras resultantes del trabajo "Actividad punto extra" durante el semestre 2022-2.
 
