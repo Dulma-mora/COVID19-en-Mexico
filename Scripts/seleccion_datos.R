@@ -21,5 +21,23 @@ colnames(variables_2021)
 head(variables_2021)
 
 
-# guardando nueva matriz como datos_2021
-write.csv(variables_2021, "datos_2021")
+# Obteniendo resultados positivos -----------------------------------------
+
+# observando los datos únicos en la variable RESULTADO_ANTIGENO
+unique(datos_2021$RESULTADO_ANTIGENO)
+class(datos_2021$RESULTADO_ANTIGENO)
+
+# 97, 2 y 1
+# de acuerdo con los descriptores de las variables, los valores corresponden
+# a 1 (POSITIVO A SARS-COV-2), 2 (NEGATIVO A SARS-COV-2)
+# y 97 (no aplica, caso sin muestra)
+
+# nos interesan los datos de los pacientes positivos 
+
+
+# seleccionando positivos
+
+positivos_covid <- filter(datos_2021, RESULTADO_ANTIGENO == 1) # 6 millones de positivos
+     
+# guardando la matriz resultante
+write.csv(positivos_covid, "positivos_2021.csv")
