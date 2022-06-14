@@ -15,6 +15,8 @@ variables_2021 <- select(datos_2021, SEXO, ENTIDAD_RES, INTUBADO,
                          INMUSUPR, HIPERTENSION, CARDIOVASCULAR, OBESIDAD, RENAL_CRONICA,
                          TABAQUISMO, RESULTADO_ANTIGENO, UCI, FECHA_DEF)
 
+
+# comprobando la integridad de las variables
 colnames(variables_2021)
 head(variables_2021)
 
