@@ -1,6 +1,3 @@
-library(tidyverse)
-library("readr")
-library("dplyr")
 
 
 data <- "positivos_2021.csv"
